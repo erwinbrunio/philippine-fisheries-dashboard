@@ -43,5 +43,4 @@ This repository processes and synthesizes official Philippine Statistics Authori
 └── README.md                                 # Project documentation
 
 
-## Data Source
-Philippine Statistics Authority (PSA) - OpenSTAT Fisheries Statistics (1996–2025).
+Data Source: Philippine Statistics Authority (PSA) - OpenSTAT Fisheries Statistics (1996–2025).
