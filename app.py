@@ -549,33 +549,33 @@ with tab_overview:
 # SECTION 2: AQUACULTURE
 # ------------------------------------------------------------------------------
 with tab_aqua:
-    st.header("Aquaculture Sector Analysis")
+    st.header("Aquaculture Sector")
     render_subsector_tab("Aquaculture", is_aquaculture=True)
 
 # ------------------------------------------------------------------------------
 # SECTION 3: COMMERCIAL FISHERIES
 # ------------------------------------------------------------------------------
 with tab_comm:
-    st.header("Commercial Fisheries Analysis")
+    st.header("Commercial Fisheries")
     render_subsector_tab("Commercial Fisheries")
 
 # ------------------------------------------------------------------------------
 # SECTION 4: MUNICIPAL FISHERIES (COMBINED)
 # ------------------------------------------------------------------------------
 with tab_muni:
-    st.header("Municipal Fisheries Analysis (Combined Marine & Inland)")
+    st.header("Municipal Fisheries")
     render_subsector_tab("Municipal Fisheries", is_combined_municipal=True)
 
 # ------------------------------------------------------------------------------
 # SECTION 5: INLAND MUNICIPAL FISHERIES
 # ------------------------------------------------------------------------------
 with tab_inland:
-    st.header("Inland Municipal Fisheries Analysis")
+    st.header("Inland Municipal")
     render_subsector_tab("Inland Municipal Fisheries")
 
 # ------------------------------------------------------------------------------
 # SECTION 6: MARINE MUNICIPAL FISHERIES
 # ------------------------------------------------------------------------------
 with tab_marine:
-    st.header("Marine Municipal Fisheries Analysis")
+    st.header("Marine Municipal Fisheries")
     render_subsector_tab("Marine Municipal Fisheries")
