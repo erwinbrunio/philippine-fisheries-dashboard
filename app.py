@@ -570,7 +570,7 @@ with tab_muni:
 # SECTION 5: INLAND MUNICIPAL FISHERIES
 # ------------------------------------------------------------------------------
 with tab_inland:
-    st.header("Inland Municipal")
+    st.header("Inland Municipal Fisheries")
     render_subsector_tab("Inland Municipal Fisheries")
 
 # ------------------------------------------------------------------------------
